@@ -39,8 +39,6 @@ def get_weather(start_dates,end_dates,code):
     df_final = df_final.append(df)
 
 
-  df_final = df_final.drop(['hourly'],axis =1)
-  df_final = df_final.drop(['astronomy'],axis =1)
   df_final['airport_code'] = code
 
 
