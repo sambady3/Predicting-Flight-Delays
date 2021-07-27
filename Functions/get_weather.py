@@ -15,7 +15,7 @@ def get_weather(start_dates,end_dates,code):
             A saved csv file with weather data
 
         Example:
-          start_dates = ['2018-03-01','2018-04-02','2018-05-02','2018-06-02','2018-07-02']
+          start_dates = ['2018-03-01','2018-04-02','2018-05-02','2018-06-02','2018-07-02']  # N0TE: OFFSET BY 1 DAY EACH START DATE AS QUERY IS INCLUSIVE
           end_dates = ['2018-04-01','2018-05-01','2018-06-01','2018-07-01','2018-08-01']
           code = 'ATL'
           get_weather(start_dates,end_dates,code) # For the period ranging between 2018-03-01 & 2018-08-01
